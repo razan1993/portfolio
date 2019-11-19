@@ -1,0 +1,150 @@
+
+body{
+    background-color: gray;
+}
+
+
+.container{
+    background-color:papayawhip;
+}
+/* start navbar */
+.navbar {
+
+}  
+
+.navbar-brand{
+ font-weight: bold;
+}
+span:first-child{
+    color: rgb(247, 183, 22);
+    font-size: 40px;
+}
+span:last-child{
+     color: rgb(216, 45, 216);
+     font-size: 25px;
+}
+.nav-item{
+   font-size: medium;
+}
+.nav-link{
+    color: rgb(209, 59, 59);
+}
+.nav-item:hover{
+    background-color: rgb(211, 210, 201);
+}
+/*
+.active >.nav-link{
+  background-color: blue;
+}
+*/
+
+.navbar-toggler .navbar-toggler-icon{
+    color: rgb(177, 67, 67);
+    background-color: black;
+}
+/* start slider */
+.carousel-inner{
+   
+}
+/* start card */
+.cards{
+    margin-top: 55px;
+}
+.card.mb-3{
+ background-color: wheat;
+  margin: 0 auto ;
+}
+.row .no-gutters{
+    max-width: 900px;
+}
+/* start features */
+.features {
+    padding-top:10px;
+}
+i{
+    background-color: red;
+    color: wheat;
+    padding: 12px;
+    margin-bottom: 10px;
+}
+ h3{
+    color: rgb(3, 90, 119);
+}
+ p{
+ margin-bottom: 20px;
+}
+/* start  featured work  */
+.featured-work {
+ padding: 100px 0;
+}
+h2{
+font-size: 40px;
+font-weight: bold;
+margin-bottom: 30px;
+}
+p{
+    font-size: 20px;
+    width: 80%;
+    margin: 0 auto 15px;
+
+    line-height: 1.6;
+}
+.row{
+    margin-top:60px;
+}
+.featured-work.shuffile-images {
+    border: 4px solid black;
+  }
+.featured-work ul li{
+   background-color: white;
+    height: 40px;
+   color: cadetblue;
+    border: 2px solid black;
+    margin-left: 12px;
+    padding: 9px;
+    transition:all 0.7s ease-in;
+}
+.featured-work ul li:hover{
+    background-color:salmon;
+    border-radius:10px;
+}
+.featured-work ul li.active{
+  background-color: red;
+  color: white;
+}
+ .shuffile-images{
+margin-top: 20px;
+margin-bottom: 20px;
+ }
+  
+ .row .col-md-4{
+     margin-bottom: 12px;
+ }
+
+
+//  
+.timeline {
+    position: relative;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: none;
+    list-style-type: none;
+  }
+  .timeline-panel .left{
+   left: 0;
+    position: absolute;
+}
+  .timeline-panel .right{
+      right: 300px;
+      position: absolute;
+  }
+  .timeline::after {
+    content: '';
+    position: absolute;
+    width: 6px;
+    background-color: white;
+    top: 0;
+    bottom: 0;
+    left: 50%;
+    margin-left: -3px;
+  }

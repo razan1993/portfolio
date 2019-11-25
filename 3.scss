@@ -97,18 +97,23 @@ p{
 }
 .row{
     margin-top:60px;
+    display: flex;
+    justify-content: center;
 }
 .featured-work.shuffile-images {
     border: 4px solid black;
   }
 .featured-work ul li{
-  
+   max-width:120px;
     height: 40px;
+    display: flex;
+    justify-content: center;
  border: 1px solid white;
   background-color:#adc2eb;
     margin-left: 12px;
     padding: 9px;
     transition:all 0.5s ease-in;
+
 }
 .featured-work ul li:hover{
     background-color:#adc2eb;

@@ -102,6 +102,12 @@ p {
 
 .row {
   margin-top: 60px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
 }
 
 .featured-work.shuffile-images {
@@ -109,7 +115,14 @@ p {
 }
 
 .featured-work ul li {
+  max-width: 120px;
   height: 40px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
   border: 1px solid white;
   background-color: #adc2eb;
   margin-left: 12px;

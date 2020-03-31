@@ -3,7 +3,7 @@ html {
 }
 
 body {
-  background-image: url(p.jpg);
+  /* background-image: url(p.jpg); */
   background-repeat: no-repeat;
   background-attachment: fixed;
   background-size: cover;
@@ -97,7 +97,7 @@ i {
 }
 
 i:hover {
-  background-color: #bd566e;
+  /* background-color: #bd566e; */
   border-radius: 0%;
 }
 

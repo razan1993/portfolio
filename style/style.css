@@ -1,0 +1,215 @@
+* {
+  margin: 0px;
+  padding: 0px;
+}
+
+body {
+  padding: 0;
+  margin: 0;
+}
+.container {
+  width: 960px;
+  margin: auto;
+}
+/* start header*/
+
+.header {
+  height: 500px;
+  background-image: url('https://www.segais.co.uk/files/2016/01/gl2.jpg');
+  background-size: cover;
+}
+
+.header .navbar {
+  height: 50px;
+  color: chocolate;
+  background-color: rgba(0, 0, 0, 0.1);
+}
+.header .navbar ul {
+  overflow: hidden;
+  list-style: none;
+  float: right;
+}
+.header .navbar ul a {
+  text-decoration: none;
+  color: wheat;
+  font-size: 21px;
+}
+
+.header .navbar ul li {
+  float: left;
+  padding: 0px 30px;
+  font-weight: bold;
+}
+.header .navbar ul li.active a,
+.header .navbar ul li a:hover {
+  color: darkcyan;
+}
+
+.header .slider {
+  text-align: right;
+}
+
+.header .text {
+  color: wheat;
+  text-align: center;
+  margin-left: 650px;
+  margin-top: 253px;
+}
+/* End header*/
+
+/* start about me*/
+.aboutme {
+  height: 200px;
+  background-color: antiquewhite;
+}
+.aboutme h1 {
+  text-align: center;
+  margin-top: 0px;
+  padding-top: 21px;
+}
+
+.aboutme p {
+  text-align: center;
+  line-height: 1.5;
+}
+/* end about me*/
+/* start pictuers*/
+.pictuers {
+  height: 300px;
+  overflow: hidden;
+}
+
+.pictuers .foto {
+  width: 33.33333%;
+  float: left;
+  text-align: center;
+}
+.pictuers .foto:first-child {
+  text-align: left;
+}
+.pictuers .foto:last-child {
+  text-align: right;
+}
+.pictuers .foto img {
+  width: 98%;
+}
+/* end pictuers*/
+/* start content*/
+.content {
+  height: 400px;
+  overflow: hidden;
+  padding-top: 12px;
+}
+.content .test1 {
+  width: 60%;
+  float: left;
+}
+.content .test1 img {
+  width: 95%;
+}
+.content .last img {
+  float: right;
+  width: 100%;
+  height: 100%;
+}
+.content .test2 {
+  width: 40%;
+  float: left;
+}
+.content .test2 h1 {
+  text-align: center;
+}
+.content .test2 p {
+  text-align: center;
+  color: #72727a;
+  line-height: 23px;
+  padding: 0 40px;
+}
+.content button {
+  height: 29px;
+  width: 85px;
+  color: #3c7c7c;
+  background-color: white;
+  font-weight: bold;
+  border: 2px solid #3c7c7c;
+  border-radius: 5px;
+  margin: 0px 145px;
+}
+.content button:hover {
+  color: white;
+  background-color: #3c7c7c;
+}
+
+/* end content*/
+/* start articel*/
+.articel {
+  height: 350px;
+  overflow: hidden;
+  background-color: antiquewhite;
+}
+
+.articel .first {
+  float: left;
+  width: 50%;
+}
+
+.articel .first h3 {
+  text-align: center;
+}
+.articel .first p {
+  text-align: center;
+  padding-bottom: 40px;
+  line-height: 1.5;
+  padding-left: 50px;
+  padding-right: 50px;
+  color: #72727a;
+}
+
+hr {
+  width: 200px;
+  color: gray;
+}
+
+/* end articel*/
+/* start footer*/
+.footer {
+  height: 200px;
+  overflow: hidden;
+  background-color: black;
+}
+.footer .tesst {
+  float: left;
+  width: 33.33333%;
+  height: 100%;
+}
+.footer .tesst h3 {
+  color: wheat;
+  text-align: center;
+  font-size: 26px;
+  margin-bottom: 35px;
+}
+
+.footer span {
+  padding: 0 20px;
+}
+
+.footer i {
+  font-size: 24px;
+}
+.footer .tesst p {
+  line-height: 26px;
+  font-size: 16px;
+  color: wheat;
+  text-align: center;
+}
+
+.footer a {
+  color: wheat;
+  text-decoration: none;
+}
+.footer a.active,
+.footer a:hover {
+  color: darkcyan;
+}
+
+/* end footer*/

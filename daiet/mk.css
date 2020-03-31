@@ -1,0 +1,182 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+body {
+  background-color: darkseagreen;
+  font-style: italic;
+}
+.container {
+  width: 960px;
+  margin: auto;
+}
+
+/*start header*/
+
+.header .slider {
+  background-image: url(https://sennho.com/wp-content/uploads/2018/11/sennho-1024x575.jpg);
+  background-size: cover;
+  height: 378px;
+}
+.header .navbar {
+  background-color: seagreen;
+  color: #fff;
+  overflow: hidden;
+}
+.header .navbar ul {
+  list-style: none;
+  overflow: hidden;
+  float: right;
+}
+.header .navbar ul li {
+  float: left;
+  padding: 10px;
+  font-size: 18px;
+}
+.header .navbar ul li a {
+  text-decoration: none;
+  color: white;
+}
+.header .navbar ul li a:hover {
+  color: greenyellow;
+}
+
+/*end header*/
+/*start profile*/
+.Healthy-food {
+  overflow: hidden;
+  background-color: transparent;
+}
+
+.Healthy-food h1 {
+  text-align: center;
+  margin-top: 35px;
+  text-decoration: underline;
+  margin-bottom: 18px;
+  color: darkgreen;
+}
+.Healthy-food p {
+  float: left;
+  text-align: center;
+  font-size: 21px;
+  height: 154px;
+  padding-bottom: 23px;
+}
+/*end profile*/
+
+/*start about me*/
+.about {
+  background-color: azure;
+  height: 312px;
+}
+.about-me img {
+  max-width: 311px;
+  float: left;
+}
+.Diet-Coach {
+  overflow: hidden;
+  padding: 46px 46px 46px 146px;
+  background-color: azure;
+}
+.Diet-Coach h1 {
+  padding-left: 16px;
+  text-decoration: underline;
+  padding-bottom: 41px;
+  padding-bottom: 24px;
+  color: darkgreen;
+}
+.info {
+  float: left;
+  list-style: none;
+}
+.info ul {
+  font-size: 22px;
+  padding: 10px;
+  line-height: 42px;
+}
+.list {
+  list-style: none;
+}
+/*end about me*/
+/*start Exercise*/
+.Exercise {
+  background-color: lavender;
+  padding-bottom: 30px;
+  padding-top: 30px;
+  height: 263px;
+}
+.Exercise .Exercises {
+  margin: 30px;
+}
+.Exercise .Exercises h2 {
+  text-transform: uppercase;
+  text-decoration-line: underline;
+  height: 46px;
+  font-size: 23px;
+  color: black;
+  color: darkgreen;
+}
+.Exercise .Exercises p {
+  font-size: 18px;
+  line-height: 25px;
+  text-align: center;
+}
+/*end Exercise*/
+/*start activities*/
+
+.my-activities {
+  padding-bottom: 30px;
+  padding-top: 30px;
+  overflow: hidden;
+  background-color: azure;
+}
+
+.my-activities .activities {
+  float: left;
+  width: 40%;
+  margin: 30px;
+}
+.my-activities .activitie {
+  float: left;
+  widows: 40%;
+}
+.activities h1 {
+  text-decoration: underline;
+  padding-left: 101px;
+  padding-bottom: 21px;
+  color: darkgreen;
+}
+.activities p {
+  font-size: 18px;
+  line-height: 28px;
+}
+.activitie h1 {
+  padding: 20px;
+}
+.activitie img {
+  width: 488px;
+}
+/*end activities*/
+/*start footer*/
+
+.footer {
+  overflow: hidden;
+}
+
+.footer .my-footer {
+  float: left;
+  background-color: seagreen;
+  width: 50%;
+  height: 150px;
+  padding-top: 42px;
+}
+
+.footer .my-footer p,
+h2 {
+  font-size: 22px;
+  color: white;
+  text-align: center;
+  padding-top: 10px;
+}
+
+/*end footer*/
